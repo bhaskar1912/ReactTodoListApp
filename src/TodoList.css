@@ -1,0 +1,98 @@
+.todo-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ffa07a, #f08080);
+  }
+  
+  .todo-list {
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todo-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list-header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .todo-list-header input[type='text'] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+  }
+  
+  .todo-list-header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f08080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .todo-list-header button:hover {
+    background-color: #ffa07a;
+  }
+  
+  .todo-list-items {
+    margin-bottom: 20px;
+  }
+  
+  .todo-list-footer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f08080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .todo-list-footer button:hover {
+    background-color: #ffa07a;
+  }
+  
+  .todo-list-edit input[type='text'] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+  }
+  
+  .todo-list-edit button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f08080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .todo-list-edit button:hover {
+    background-color: #ffa07a;
+  }
+  

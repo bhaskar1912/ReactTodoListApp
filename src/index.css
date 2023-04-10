@@ -1,0 +1,27 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.todo{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(241, 47, 138);
+}
+.main{
+  background-color: white;
+  border-bottom: 2px solid black;
+  margin-top: 5px;
+}
+h1{
+  margin-left: 35px;
+}
+input[type="text"]{
+  height: 30px;
+}
+.deletall{
+  text-align: center;
+}
